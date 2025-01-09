@@ -16,7 +16,17 @@ II) Technology Stack
  - CSS: Styling, animations, and responsive design.
  - JavaScript: Interactivity, dropdown menus, and dynamic content handling.
 
-III) Screenshots
+III) Responsive Design
+
+The website adapts to various screen sizes, ensuring a smooth user experience on desktops, tablets, and mobile devices.
+
+IV) Future Improvements
+
+Integrate a backend for handling user authentication and order management.
+Add payment gateway support.
+Enhance user interactivity with more animations and transitions.
+
+V) Screenshots
 ![_Users_d gio_Downloads_E-Commerce%20Website%20UI_index html (2)](https://github.com/user-attachments/assets/a859b302-9127-44d3-8712-f700f2965248)
 
 ![_Users_d gio_Downloads_Ecommerce-Website_shop html](https://github.com/user-attachments/assets/cb668055-1fa7-4e8a-a4fc-81e108fc07af)
@@ -33,12 +43,4 @@ III) Screenshots
 
 
 
-IV) Responsive Design
 
-The website adapts to various screen sizes, ensuring a smooth user experience on desktops, tablets, and mobile devices.
-
-V) Future Improvements
-
-Integrate a backend for handling user authentication and order management.
-Add payment gateway support.
-Enhance user interactivity with more animations and transitions.
