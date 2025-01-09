@@ -17,6 +17,17 @@ II) Technology Stack
  - JavaScript: Interactivity, dropdown menus, and dynamic content handling.
 
 III) Screenshots
+![_Users_d gio_Downloads_E-Commerce%20Website%20UI_index html (2)](https://github.com/user-attachments/assets/a859b302-9127-44d3-8712-f700f2965248)
+
+![_Users_d gio_Downloads_Ecommerce-Website_shop html](https://github.com/user-attachments/assets/cb668055-1fa7-4e8a-a4fc-81e108fc07af)
+![_Users_d gio_Downloads_Ecommerce-Website_ItemDetail html](https://github.com/user-attachments/assets/bc4f343a-1f79-49c5-9f46-a0ebd429c600)
+
+![_Users_d gio_Downloads_Ecommerce-Website_contact html](https://github.com/user-attachments/assets/a3d4613c-1e3c-4602-8bab-0504b6dc2e16)
+
+
+
+
+
 
 
 
