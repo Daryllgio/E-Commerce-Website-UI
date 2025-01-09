@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.png" id="logo" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="shop.html">Shop</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a class="active" href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+
+    <section id="CartPageheader" class="section-p1">
+        <h2>#Cart</h2>
+        <p>Add a coupon code & save up to 70%</p>
+    </section>
+
+    <section id="Cart-Summary-Container">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>
+                        Remove Item
+                    </td>
+                    <td>
+                        Image
+                    </td>
+                    <td>
+                        Product
+                    </td>
+                    <td>
+                        Price
+                    </td>
+                    <td>
+                        Quantiy
+                    </td>
+                    <td>
+                        SubTotal
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <i class="far fa-times-circles"></i>
+                    </td>
+                    <td>
+                        <img src="img/products/f1.jpg" class="option" alt="">
+                    </td>
+                    <td>
+                        <p>
+                            Cartoon Astronaut T-Shirts
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            $118.9
+                        </p>
+                    </td>
+                    <td>
+                        <div class="Product-Num-Container">
+                            <div class="dropdown">
+                                <button class="Size-btn" onclick="toggleDropdown('myDropdown2')">1</button>
+                                <div class="dropdown-content" id="myDropdown2">
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">1</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">2</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">3</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">4</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">5</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">6</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">7</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">8</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">9</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <p>
+                            $118.9
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="far fa-times-circle"></i>
+                    </td>
+                    <td>
+                        <img src="img/products/f1.jpg" class="option" alt="">
+                    </td>
+                    <td>
+                        <p>
+                            Cartoon Astronaut T-Shirts
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            $118.9
+                        </p>
+                    </td>
+                    <td>
+                        <div class="Product-Num-Container">
+                            <div class="dropdown">
+                                <button class="Size-btn" onclick="toggleDropdown('myDropdown2')">1</button>
+                                <div class="dropdown-content" id="myDropdown2">
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">1</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">2</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">3</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">4</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">5</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">6</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">7</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">8</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">9</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <p>
+                            $118.9
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="far fa-times-circles"></i>
+                    </td>
+                    <td>
+                        <img src="img/products/f1.jpg" class="option" alt="">
+                    </td>
+                    <td>
+                        <p>
+                            Cartoon Astronaut T-Shirts
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            $118.9
+                        </p>
+                    </td>
+                    <td>
+                        <div class="Product-Num-Container">
+                            <div class="dropdown">
+                                <button class="Size-btn" onclick="toggleDropdown('myDropdown2')">1</button>
+                                <div class="dropdown-content" id="myDropdown2">
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">1</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">2</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">3</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">4</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">5</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">6</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">7</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">8</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)">9</a>
+                                    <a href="#" onclick="updateButtonText('myDropdown2', this)"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <p>
+                            $118.9
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+
+        </table>
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

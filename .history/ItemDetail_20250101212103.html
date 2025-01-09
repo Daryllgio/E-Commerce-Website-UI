@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech2etc Ecommerce Tutorial</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.png" id="logo" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="active" href="shop.html">Shop</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+
+    <section id="Product-Detail-Container">
+        <div class="OptionContainer">
+            <img src="img/products/f1.jpg" class="MainOption" alt="">
+            <div class="OptionSubContainer">
+                <img src="img/products/f2.jpg" class="option" alt="">
+                <img src="img/products/f3.jpg" class="option" alt="">
+                <img src="img/products/f4.jpg" class="option" alt="">
+                <img src="img/products/f5.jpg" class="option" alt="">
+            </div>
+        </div>
+
+        <div>
+            <p class="Product-Name">Home/T-Shirt</p>
+            <h3 class="Product-Category">Men's Fashion T-Shirt</h3>
+            <h2 class="Product-Price">$139.00</h2>
+            <div class="dropdown">
+                <button class="dropdown-btn" onclick="toggleDropdown('myDropdown1')">Select Size</button>
+                <div class="dropdown-content" id="myDropdown1">
+                    <a href="#" onclick="updateButtonText('myDropdown1', this)">Small</a>
+                    <a href="#" onclick="updateButtonText('myDropdown1', this)">Medium</a>
+                    <a href="#" onclick="updateButtonText('myDropdown1', this)">Large</a>
+                </div>
+            </div>
+            <div class="Product-Num-Container">
+                <div class="dropdown">
+                    <button class="Size-btn" onclick="toggleDropdown('myDropdown2')">0</button>
+                    <div class="dropdown-content" id="myDropdown2">
+                        <a href="#" onclick="updateButtonText('myDropdown2', this)">1</a>
+                        <a href="#" onclick="updateButtonText('myDropdown2', this)">2</a>
+                        <a href="#" onclick="updateButtonText('myDropdown2', this)">3</a>
+                        <a href="#" onclick="updateButtonText('myDropdown2', this)">4</a>
+                        <a href="#" onclick="updateButtonText('myDropdown2', this)">5</a>
+                        <a href="#" onclick="updateButtonText('myDropdown2', this)">6</a>
+                        <a href="#" onclick="updateButtonText('myDropdown2', this)">7</a>
+                        <a href="#" onclick="updateButtonText('myDropdown2', this)">8</a>
+                        <a href="#" onclick="updateButtonText('myDropdown2', this)">9</a>
+                        <a href="#" onclick="updateButtonText('myDropdown2', this)">10+</a>
+                    </div>
+                </div>
+                <button class="AddToCart-btn">
+                    Add to Cart
+                </button>
+            </div>
+            <p class="Product-Detail-Header">Product Details</p>
+            <p class="Product-Details">
+                The Gildan Ultra Cotton T-Shirt is made froma substantial 6.0 oz. per sq/ yd. fabric constructed
+                from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear.
+                Feauturing a taped neck and shoulder and a seamless double-needle collar, and available in a range
+                of colors, it offers it all in a the ultimate head-turning package.
+            </p>
+        </div>
+
+    </section>
+
+
+    <section id="product1" class="section-p1">
+        <h2>
+            Feautured Products
+        </h2>
+        <p>
+            Summer Collection New Morden Design
+        </p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/products/f1.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="Shop">
+                        <h4>$74</h4>
+                        <a href="#"><i class="fal fa-shopping-cart "></i></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="img/products/f2.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="Shop">
+                        <h4>$74</h4>
+                        <a href="#"><i class="fal fa-shopping-cart "></i></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="img/products/f3.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="Shop">
+                        <h4>$74</h4>
+                        <a href="#"><i class="fal fa-shopping-cart "></i></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="img/products/f4.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="Shop">
+                        <h4>$74</h4>
+                        <a href="#"><i class="fal fa-shopping-cart "></i></a>
+                    </div>
+
+                </div>
+            </div>
+
+
+    </section>
+
+    <section id="ShopPagePagination">
+        <a href="#">
+            1
+        </a>
+        <a href="#">
+            2
+        </a>
+        <a href="#">
+            <i class="fal fa-long-arrow-alt-right"></i>
+        </a>
+    </section>
+
+    <section id="sm-NewsLetter" class="section-p1">
+        <div class="Newsletters-Container">
+            <div class="Newsletters-Text">
+                <h3>Sign Up For Newsletters</h3>
+                <p> Get the updates about out latest shop and <span>special offers</span></p>
+            </div>
+            <div class="Newsletters-Input">
+                <input placeholder="Your email address" />
+                <button>
+                    Sign Up
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer id="Footer" class="section-p1">
+        <div class="Footer-box">
+            <h3>Contact</h3>
+            <p><span>Address: </span>1233 Colonel By Drive, Ottawa, Canada</p>
+            <p><span>Phone: </span>+1 (234) 567-9810</span></p>
+            <p><span>Hours: </span>1233 Coloenl By Drive, Ottawa, Canada</p>
+            <h3>Follow Us</h3>
+
+            <div class="Social-Icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest-p"></i>
+            </div>
+        </div>
+
+        <div class="Footer-box">
+            <h3>About</h3>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="Footer-box">
+            <h3>My Account</h3>
+            <a href="#">Sign In</a>
+            <a href="cart.html">View Cart</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="Footer-box">
+            <h3>Install App</h3>
+            <p>From App Store or Google Play</p>
+            <div class="Pay-Container">
+                <img src="img/pay/app.jpg" class="pay" alt="">
+                <img src="img/pay/play.jpg" class="pay" alt="">
+
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+
+        </div>
+
+    </footer>
+    <div id="copyright">
+        <p>
+            2024, E-commerce website project
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
