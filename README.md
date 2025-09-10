@@ -126,10 +126,11 @@ Then visit `http://localhost:5173/index.html`.
 <br><br>
 <br><br>
 <br><br>
+<br><br>
+<br><br>
+<br><br>
 ![Shop](https://github.com/user-attachments/assets/cb668055-1fa7-4e8a-a4fc-81e108fc07af)
-<br><br>
-<br><br>
-<br><br>
+
 
 
 
