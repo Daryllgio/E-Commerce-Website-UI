@@ -124,9 +124,12 @@ Then visit `http://localhost:5173/index.html`.
 
 ![Home](https://github.com/user-attachments/assets/a859b302-9127-44d3-8712-f700f2965248)
 <br><br>
+<br><br>
+<br><br>
 ![Shop](https://github.com/user-attachments/assets/cb668055-1fa7-4e8a-a4fc-81e108fc07af)
 <br><br>
-![Item Detail](https://github.com/user-attachments/assets/bc4f343a-1f79-49c5-9f46-a0ebd429c600)
+<br><br>
+<br><br>
 
 
 
